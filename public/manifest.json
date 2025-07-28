@@ -5,9 +5,8 @@
   "icons": [
     {
       "src": "website.png",
-      "sizes": "192x192 512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "192x192"
     }
   ],
   "start_url": ".",
