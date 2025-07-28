@@ -1,0 +1,17 @@
+{
+  "short_name": "VLSM Tool",
+  "name": "VLSM Calculator",
+  "description": "Variable Length Subnet Masking calculator for network professionals",
+  "icons": [
+    {
+      "src": "website.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2962ff",
+  "background_color": "#ffffff"
+}

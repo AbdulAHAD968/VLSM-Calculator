@@ -1,0 +1,81 @@
+.results-table {
+  margin-top: 2rem;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+thead {
+  background-color: #f1f3f4;
+}
+
+th {
+  text-align: left;
+  padding: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #202124;
+  border-bottom: 2px solid #d2d2d2;
+  white-space: nowrap;
+}
+
+td {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tbody tr:hover {
+  background-color: #e8f0fe;
+  transition: background-color 0.2s ease;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  table {
+    font-size: 0.85rem;
+    min-width: 100%;
+  }
+
+  th, td {
+    padding: 0.75rem;
+  }
+
+  .results-table {
+    padding: 1rem;
+  }
+}
