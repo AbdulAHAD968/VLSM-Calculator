@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# VLSM Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional tool for calculating Variable Length Subnet Masks (VLSM) for network engineers and students.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Calculate subnet masks, network ranges, and CIDR notation
+- Support for multiple network requirements in a single calculation
+- Detailed results including network address, broadcast address, and usable host range
+- Responsive design that works on desktop and mobile devices
+- Progressive Web App (PWA) support for offline use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React.js
+- Framer Motion (for animations)
+- CSS3 (flexbox and grid layout)
+- IP calculation utilities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/vlsm-calculator.git
+   Install dependencies:
+   cd vlsm-calculator
+   npm install
+   Run the development server:
+   npm start
+   Open http://localhost:3000 to view in browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Building for Production
+   To create an optimized production build:
+```bash
+npm run build
+```
+This will create a build folder with all static files ready for deployment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+# Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Enter the base IP address and CIDR notation
+2. Specify your network requirements (name and number of hosts needed)
+3. Click "Calculate" to generate the VLSM results
+4. View detailed subnet information for each network
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Project Structure
+```bash
+/src
+  /components      # React components
+  /utils           # Utility functions and calculators
+  /styles          # CSS stylesheets
+/public            # Static files and assets
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# Contributing
+- [x] Contributions are welcome. Please follow these guidelines:
+- [ ] Fork the repository
+- [ ] Create a new branch for your feature
+- [ ] Submit a pull request with a clear description of changes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgments
+- [x] Inspired by networking courses and certification materials
+- [x] Built with modern web development best practices
