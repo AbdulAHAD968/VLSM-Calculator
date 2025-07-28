@@ -27,15 +27,18 @@ A professional tool for calculating Variable Length Subnet Masks (VLSM) for netw
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vlsm-calculator.git
-   Install dependencies:
+   git clone https://github.com/AbdulAHAD968/VLSM-Calculator.git
+   ```
+2. Install dependencies:
+   ```bash
    cd vlsm-calculator
    npm install
    Run the development server:
    npm start
-   Open http://localhost:3000 to view in browser.
+   ```
+3. Open http://localhost:3000 to view in browser.
 
-2. Building for Production
+4. Building for Production
    To create an optimized production build:
 ```bash
 npm run build
